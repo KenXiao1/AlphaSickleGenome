@@ -1,0 +1,12 @@
+[project]
+name = "alphasicklegenome"
+version = "0.1.0"
+description = "AlphaGenome-based sickle cell genomics research project"
+requires-python = ">=3.12"
+dependencies = [
+    "alphagenome>=2.0.0",
+    "python-dotenv>=1.2.4",
+]
+
+[project.urls]
+Repository = "https://github.com/KenXiao1/AlphaSickleGenome"
