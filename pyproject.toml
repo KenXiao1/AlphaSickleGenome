@@ -5,6 +5,7 @@ description = "AlphaGenome-based sickle cell genomics research project"
 requires-python = ">=3.12"
 dependencies = [
     "alphagenome>=2.0.0",
+    "openpyxl>=3.1.5",
     "python-dotenv>=1.2.4",
 ]
 
