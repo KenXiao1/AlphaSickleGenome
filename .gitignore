@@ -22,3 +22,6 @@ dist/
 .idea/
 .vscode/
 .DS_Store
+
+# Raw downloaded data (re-downloadable, not tracked)
+data/raw/
