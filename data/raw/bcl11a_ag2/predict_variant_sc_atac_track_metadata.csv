@@ -1,0 +1,11 @@
+name,strand,biosample_curie,imputation_mode,biosample_type,biosample_name,Assay title,suspension_type,data_pipeline,condition
+UBERON:0002371_CL:0000765_EasySci-ATAC-easy_sci-nuclear,.,UBERON:0002371_CL:0000765,imputed_supported,primary_cell,bone marrow erythroblast,EasySci-ATAC,nuclear,easy_sci,UBERON:0002371_CL:0000765
+UBERON:0002371_CL:0000765_SHARE-seq-cellranger-nuclear,.,UBERON:0002371_CL:0000765,imputed_supported,primary_cell,bone marrow erythroblast,SHARE-seq,nuclear,cellranger,UBERON:0002371_CL:0000765
+UBERON:0002371_CL:0000765_scATAC-seq 10X-bowtie2-nuclear,.,UBERON:0002371_CL:0000765,imputed_supported,primary_cell,bone marrow erythroblast,scATAC-seq 10X,nuclear,encode,UBERON:0002371_CL:0000765
+UBERON:0002371_CL:0000765_scATAC-seq 10X-cellranger-nuclear,.,UBERON:0002371_CL:0000765,observed,primary_cell,bone marrow erythroblast,scATAC-seq 10X,nuclear,cellranger,UBERON:0002371_CL:0000765
+UBERON:0002371_CL:0000765_sciATAC-seq-bowtie2-nuclear,.,UBERON:0002371_CL:0000765,imputed_supported,primary_cell,bone marrow erythroblast,sciATAC-seq,nuclear,encode,UBERON:0002371_CL:0000765
+UBERON:0000178_CL:0000788_EasySci-ATAC-easy_sci-nuclear,.,UBERON:0000178_CL:0000788,imputed_supported,primary_cell,blood naive B cell,EasySci-ATAC,nuclear,easy_sci,UBERON:0000178_CL:0000788
+UBERON:0000178_CL:0000788_SHARE-seq-cellranger-nuclear,.,UBERON:0000178_CL:0000788,imputed_supported,primary_cell,blood naive B cell,SHARE-seq,nuclear,cellranger,UBERON:0000178_CL:0000788
+UBERON:0000178_CL:0000788_scATAC-seq 10X-bowtie2-nuclear,.,UBERON:0000178_CL:0000788,imputed_supported,primary_cell,blood naive B cell,scATAC-seq 10X,nuclear,encode,UBERON:0000178_CL:0000788
+UBERON:0000178_CL:0000788_scATAC-seq 10X-cellranger-nuclear,.,UBERON:0000178_CL:0000788,observed,primary_cell,blood naive B cell,scATAC-seq 10X,nuclear,cellranger,UBERON:0000178_CL:0000788
+UBERON:0000178_CL:0000788_sciATAC-seq-bowtie2-nuclear,.,UBERON:0000178_CL:0000788,imputed_supported,primary_cell,blood naive B cell,sciATAC-seq,nuclear,encode,UBERON:0000178_CL:0000788

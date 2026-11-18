@@ -1,0 +1,143 @@
+{
+  "data_provenance": "REAL_ALPHAGENOME_2_API",
+  "generated_at_utc": "2026-11-18T06:41:00.768826+00:00",
+  "python_version": "3.12.11",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "alphagenome_package_version": "2.0.0",
+  "alphagenome_version": "2.0.0",
+  "api_client_class": "alphagenome.models.v2.dna_client.DnaClient",
+  "grpc_service_package": "google.gdm.gdmscience.alphagenome.v2main",
+  "model_version": "ALL_FOLDS",
+  "api_key_configured": "offline_mode",
+  "api_calls_executed_in_this_run": 0,
+  "reference_assembly": "GRCh38",
+  "variant": "chr2:60495266:G>A",
+  "variant_coordinates": {
+    "chromosome": "chr2",
+    "position_1based": 60495266,
+    "interval_0based_half_open": [
+      60495265,
+      60495266
+    ],
+    "reference_bases_plus_strand": "G",
+    "alternate_bases_plus_strand": "A"
+  },
+  "windows_0based_half_open": {
+    "input_1mb": [
+      59970978,
+      61019554
+    ],
+    "scoring_center_mask_1201bp": [
+      60494665,
+      60495866
+    ],
+    "enhancer_62kb_paper": [
+      60490400,
+      60491800
+    ],
+    "enhancer_58kb_core_paper_fig4k": [
+      60495049,
+      60495539
+    ],
+    "enhancer_55kb_paper": [
+      60497800,
+      60499200
+    ],
+    "enhancer_62kb_dhs_tutorial": [
+      60490409,
+      60491729
+    ],
+    "enhancer_58kb_dhs_tutorial": [
+      60494920,
+      60496208
+    ],
+    "enhancer_55kb_dhs_tutorial": [
+      60497676,
+      60498941
+    ],
+    "sg1617_grna_target": [
+      60495263,
+      60495284
+    ],
+    "ism_fig4j_23bp": [
+      60495262,
+      60495285
+    ],
+    "saved_locus_slice_10kb": [
+      60490000,
+      60500000
+    ]
+  },
+  "sequence_verification": {
+    "verified_genome": "hg38",
+    "verified_chrom": "chr2",
+    "verified_position_1based": 60495266,
+    "verified_position_0based": 60495265,
+    "verified_ref_base": "G",
+    "plus_strand_motif_60495266_60495270": "GATAA",
+    "ism_window_0based": [
+      60495262,
+      60495285
+    ],
+    "ism_ref_sequence": "TGTGATAAAAGCAACTGTTAGCT",
+    "ism_alt_sequence": "TGTAATAAAAGCAACTGTTAGCT"
+  },
+  "gene_and_enhancer_verification": {
+    "gene_id": "ENSG00000119866.22",
+    "gene_id_unversioned": "ENSG00000119866",
+    "gene_name": "BCL11A",
+    "gene_strand": "-",
+    "gene_body_0based": [
+      60450519,
+      60554467
+    ],
+    "mane_transcript_id": "ENST00000642384.2",
+    "mane_transcript_0based": [
+      60457193,
+      60553654
+    ],
+    "mane_tss": 60553654,
+    "signed_distance_from_tss_bp": 58388,
+    "in_58kb_core_enhancer": true,
+    "in_58kb_dhs_enhancer": true
+  },
+  "conditions": {
+    "condition_a_main": {
+      "condition": "UBERON:0002371_CL:0000765",
+      "biosample_type": "primary_cell",
+      "biosample_name": "bone marrow erythroblast",
+      "sc_atac": "observed",
+      "sc_gene_expression": "observed"
+    },
+    "condition_b_control": {
+      "condition": "UBERON:0000178_CL:0000788",
+      "biosample_type": "primary_cell",
+      "biosample_name": "blood naive B cell",
+      "sc_atac": "observed",
+      "sc_gene_expression": "observed"
+    },
+    "tutorial_b_cell_comparison_note": {
+      "condition": "UBERON:0002371_CL:0000788",
+      "biosample_type": "primary_cell",
+      "biosample_name": "bone marrow naive B cell",
+      "sc_atac": "observed",
+      "sc_gene_expression": "observed"
+    },
+    "primary_comparable_channel_suffix": "scATAC-seq 10X-cellranger-nuclear"
+  },
+  "scorer_parameters": {
+    "scorer_key": "SC_ATAC",
+    "scorer_repr": "CenterMaskScorer(requested_output=SC_ATAC, width=1201, aggregation_type=DIFF_LOG2_SUM)",
+    "requested_output": "SC_ATAC",
+    "width_bp": 1201,
+    "aggregation_type": "DIFF_LOG2_SUM",
+    "formula": "log2(sum_{i in W_1201}(y_ALT,i) + 1) - log2(sum_{i in W_1201}(y_REF,i) + 1)",
+    "pseudocount": 1.0,
+    "max_abs_cross_validation_diff": 5.770412925265589e-07
+  },
+  "checksums_sha256": {
+    "sc_atac_window_10kb_tracks.parquet": "a9ba5db971b9d481bda8dd3f118999ca99ec660bbefc8b011af483b4fd8df067",
+    "variant_effect_scores_comparison.csv": "0463cdb57441c4a9817614c180bf2aca822985fb6b4386cbf75f257945f9db7f",
+    "ism_attribution_chr2_60495262_60495285.csv": "d81494729eb7636ad9bcb9f55ae75621f3219ab5854979a281915061cff6a995"
+  }
+}

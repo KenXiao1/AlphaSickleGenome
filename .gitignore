@@ -22,3 +22,6 @@ dist/
 .idea/
 .vscode/
 .DS_Store
+
+# Local large binary API cache (reusable slices and raw tables are saved in data/raw and data/processed)
+data/cache/
